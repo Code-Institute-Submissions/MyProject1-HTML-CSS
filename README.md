@@ -36,4 +36,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ---
 
-Happy coding!
+#### Hello i'm Noah Al Samawi my name and this is my first project with HTML and CSS  whele i call it 'Shop Land'.
+
+#### Make first index.html 
+- Add meat data and connect css file 
+- Add core structure for home page
+- Add basic header structure
