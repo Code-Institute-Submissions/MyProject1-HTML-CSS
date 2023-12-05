@@ -45,3 +45,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
   
 #### Make css.style file
 Add google fonts and remove default margins, borders and padding [this link for google fonts](https://fonts.google.com/specimen/Oswald?query=oswald)  
+Add h1 and h2 to css file for heading and logo
