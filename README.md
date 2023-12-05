@@ -42,3 +42,6 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 - Add meat data and connect css file 
 - Add core structure for home page
 - Add basic header structure
+  
+#### Make css.style file
+Add google fonts and remove default margins, borders and padding [this link for google fonts](https://fonts.google.com/specimen/Oswald?query=oswald)  
