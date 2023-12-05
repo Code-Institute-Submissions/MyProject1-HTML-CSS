@@ -18,7 +18,7 @@ body {
 
 h1,
 h2 {
-    font-family: oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -30,7 +30,8 @@ h2 {
     font-size: 280;
 }
 
-#nenu {
+/*navigation links8*/
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
