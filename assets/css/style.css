@@ -29,3 +29,15 @@ h2 {
     float: left;
     font-size: 280;
 }
+
+#nenu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
