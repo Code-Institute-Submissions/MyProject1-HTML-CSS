@@ -51,3 +51,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 -Add style for logo and header
 -Add style for background image
 - Style navigation links 
+- Add cover text and style
