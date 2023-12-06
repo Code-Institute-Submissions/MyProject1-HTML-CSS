@@ -43,8 +43,10 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 - Add core structure for home page
 - Add basic header structure
 - Add id for logo in h1
+- Add background image from [this to Pexels.com](https://www.pexels.com/de-de/)
   
 #### Make css.style file
--Add google fonts and remove default margins, borders and padding [this link for google fonts](https://fonts.google.com/specimen/Oswald?query=oswald)  
+-Add google fonts and remove default margins, borders and padding [this to google fonts](https://fonts.google.com/specimen/Oswald?query=oswald)  
 -Add h1 and h2 to css file for heading and logo
 -Add style for logo and header
+-Add style for background image
