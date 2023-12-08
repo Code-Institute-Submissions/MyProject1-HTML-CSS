@@ -1,54 +1,109 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+# Wadi
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![responsive mock-up]()
+Welcome to Wadi! The site is targeted at people who like to shop online. On this site, I will try to buy and sell online.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Visit live site [here](https://8000-noah-samawi-myproject1-h-a8fyrwkkkp.us2.codeanyapp.com/).
 
-## Codeanywhere Reminders
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+This site will be created during my study in Code institute.
 
-`python3 -m http.server`
+### Wireframes
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- The first wireframe in [Wadi](https://noah-samawi-myproject1-h-a8fyrwkkkp.us2.codeanyapp.com/#/workspaces/MyProject1-HTML-CSS) is a very simple design. It also shows an alternative option for the homepage layout which could be implemented in the future.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Font and Colour choices
 
-`http_server`
+**Fonts:** "IBM Plex Sans "
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Colours:** Different colors will be chosen, but yellow, white, and black are still the main colors, because I think they are the colors that are most attractive to the customer.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This site implements the very basic features of a static website.
 
-To log into the Heroku toolbelt CLI:
+### Existing Features
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **Navigation Bar**
+  - Featured in the header of all four pages. Includes links to Home page, About page, Events page and Contact form.
+  - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    ![navbar]()
 
----
+- **Store image and Banner text**
+  - The hero background image and text design is consistent throughout the site, while text content varies to match the page content.
+  - The hero image had some opacity added in order to increase the contrast between the header text and the image.
 
-#### Hello i'm Noah Al Samawi my name and this is my first project with HTML and CSS  whele i call it 'Shop Land'.
+    ![hero section]()
+    
+## UX
 
-#### Make first index.html 
-- Add meat data and connect css file 
-- Add core structure for home page
-- Add basic header structure
-- Add id for logo in h1
-- Add background image from [this to Pexels.com](https://www.pexels.com/de-de/)
-- Add id to the image section 
-#### Make css.style file
--Add google fonts and remove default margins, borders and padding [this to google fonts](https://fonts.google.com/specimen/Oswald?query=oswald)  
--Add h1 and h2 to css file for heading and logo
--Add style for logo and header
--Add style for background image
-- Style navigation links 
-- Add cover text and style
+***
+
+### Site goals
+
+The goal of this site is to provide LGBTQ+ teens and young adults of the wider Gort (Ireland) region with an easy to navigate club website. The site aims to present the necessary information in a simple, straight forward manner (including club rules, event schedule and details), as well as provide a way of contacting the club for potential new members.
+
+@@ -129,7 +129,7 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
+
+- I want to be able to add more relevant images to the site and create a more extensive gallery.
+
+## Testing
+
+***
+
+### Validator Testing
+
+- HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
+  - 1 Error: "Element div not allowed as child of element button in this context. (Suppressing further errors from this subtree.)";
+@@ -140,7 +140,7 @@ The goal of this site is to provide LGBTQ+ teens and young adults of the wider G
+- Accessibility ([axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
+  - added ```title``` and ```aria-label``` attributes to all social links and home link logo to improve accessibility
+- Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
+  - ![Lighthouse rating](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/lighthouse-rating.PNG?raw=true)
+     ![Lighthouse rating](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/lighthouse-rating.PNG?raw=true)
+- Browser Support ([CanIUse](https://caniuse.com/))
+  - ```gap``` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
+  - ```loading="lazy"``` attribute on images: not yet fully supported by most browsers; to be included in the future
+@@ -198,7 +198,7 @@ As submit.html was not a valid action for form POST method, I had to use the Cod
+No unfixed bugs to date.
+
+## Deployment
+
+***
+
+This site was deployed via GitHub pages using the following steps:
+
+- From the GitHub repository, navigate to **Settings**
+- In the left-hand navigation section select **Pages**
+@@ -215,7 +215,7 @@ To run locally:
+Alternatively you can **Clone** or **Fork** this repository into your GitHub account.
+
+## Credits
+
+***
+
+### Media
+
+Photographs with specific Irish LGBTQ content were taken from:
+ Binary file modifiedBIN -840 Bytes (95%)
+assets/images/readme-images/lighthouse-rating.PNG
+
+0 comments on commit ef06528
+@Noah-Samawi
+Comment
+
+Leave a comment
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookiesDo not share my personal informationupdate lighthouse rating image in README · Kathrin-ddggxh/ci-project1@ef06528
