@@ -1,54 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Sport Shop for oline shoping in Frankfurt, Germany"
-    />
-    <meta
-      name="keywords"
-      content="sport shop, online shoping germany, frankfuty"
-    />
-
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Sport Shop</title>
-  </head>
-
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="x-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="device-width, initial-scale=1.0">
+  <!-- Meta tags for search engines -->
+  <meta
+    name="description"
+    content="Wadi. Sport Shop for oline shopping in Frankfurt, Germany">
+  <meta
+    name="keywords"
+    content="Wadi, sport shop, for oline shopping germany, frankfurt">
+  <!-- Title -->
+  <title>Wadi</title>
+ 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assest/css/style.css" />
   <body>
+    <!-- Header -->
     <header>
       <a href="index.html">
-        <h2 id="logo">Sport shop</h2>
+        <h1 id="logo">Wadi</h1>
       </a>
-      <nav id="menu">
-        <ul>
-          <li>
-            <a href="#">Order-Form</a>
-          </li>
-          <li>
-            <a href="#">Gallery</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="index.html" class="active">Home</a>
-          </li>
+
+      <!-- git commit -m " create navigation Section"-->
+
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i
+      ></label>
+
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html" class="active"> Home</a></li>
+          <li><a href="about.html">About</a></li> 
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="signup.html">SingUp</a></li>
+          <li><a href="order-form.html">Order-Form</a></li>
         </ul>
       </nav>
     </header>
 
-    <section id="shop-outer">
-        <div id="shop-image"></div>
-        <div id="cover-text">
-            <h2>Sport Shop</h2>
-            <h3>Frankfurt Germany shoping paradies & Global market </h3>
-        </div>
-    
-    </section>
-    <section>Sport Shope Ethos</section>
-    <section>Sport Articles</section>
-    <footer>social links here</footer>
+    <!-- Main content -->
+    <main>
+        <section id="hero">
+            <div id="cover-text">
+                <h2>Wadi</h2>
+                <h3>Shoping paradies & Global market</h3>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Footer link -->
+
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our facebook page (open in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our youtube page (open in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.x.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our x page (open in a new tab)"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="visit our instagram page (open in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/382d82ce45.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
