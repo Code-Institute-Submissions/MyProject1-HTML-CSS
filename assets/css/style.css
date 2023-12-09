@@ -96,7 +96,7 @@ nav {
     height: 600px;
     width: 100%;
     /* Add store image*/
-    background:url(../im) no-repeat center/cover;
+    background:url(../images/pexels.webp) no-repeat center/cover;
 }
 #cover-text{
 /* final rgba sets the opacity so is semi-center center/cover*/
