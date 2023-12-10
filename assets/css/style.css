@@ -85,6 +85,17 @@ nav {
     top: 100%;
 }
 
+/*user-icon*/
+.user-icon {
+    background-color: #fff;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+
+}
+
 /* nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
@@ -104,7 +115,7 @@ nav {
     height: 600px;
     width: 100%;
     /* Add store image*/
-    background: url(../images/waeder-test.jpg) no-repeat center/cover;
+    background: url(../images/PREDICTIVE\ ANALYTICS\ -\ Made\ with\ PosterMyWall.jpg) no-repeat center/cover;
 }
 
 #cover-text {
@@ -154,6 +165,14 @@ footer #social-networks {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px)*/
 @media (min-width: 768px) {
 
@@ -167,52 +186,13 @@ footer #social-networks {
     }
 
     /*Display navbar items, hige toggle label*/
-
-    /* User Icon*/
-    body {
-        font-family: 'IBM Plex Sans',
-            sans-serif;
-        margin: 0;
-    }
-
-    nav {
-        background-color: #fff;
-        padding: 10px;
-    }
-
-    .user-icon {
-        position: relative;
-        display: inline-block;
-    }
-
-    .user-icon a {
-        text-decoration: none;
-        color: black;
-        padding: 10px;
-        display: block;
-    }
-
-    .drop-down {
-        display: none;
-        position: absolute;
-        top: 40px;
-        right: 0;
-        background-color: #333;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-
-    .drop-down a {
-        display: block;
-        padding: 10px;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .user-icon:hover .drop-down {
-        display: block;
-    }
 }
+
+.log-in {
+    width: 100%;
+
+}
+
 
 #menu {
     display: flex;
@@ -225,6 +205,53 @@ footer #social-networks {
 .nab-toggle-label {
     display: none;
 }
+
+/* User Icon*/
+body {
+    font-family: 'IBM Plex Sans',
+        sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.user-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.user-icon a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop-down a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-icon:hover .drop-down {
+    display: block;
+}
+
+
 
 /*Make logo larger, push main down to show under lager header*/
 
@@ -246,13 +273,5 @@ main {
     }
 }
 
-#
-/*nachdem schreiben wir ein commit*/
-/* git commit -m "Add Stylesheet with starter style"*/
 
-/*
-Wir schreiben in Terminal:
-git add .
-git commit -m "push footer sown" 
-
-*/
+/**/
