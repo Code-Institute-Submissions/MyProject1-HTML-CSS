@@ -167,6 +167,51 @@ footer #social-networks {
     }
 
     /*Display navbar items, hige toggle label*/
+
+    /* User Icon*/
+    body {
+        font-family: 'IBM Plex Sans',
+            sans-serif;
+        margin: 0;
+    }
+
+    nav {
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    .user-icon {
+        position: relative;
+        display: inline-block;
+    }
+
+    .user-icon a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        display: block;
+    }
+
+    .drop-down {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #333;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .drop-down a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .user-icon:hover .drop-down {
+        display: block;
+    }
 }
 
 #menu {
