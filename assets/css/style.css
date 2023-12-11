@@ -185,93 +185,88 @@ footer #social-networks {
         padding-right: 1rem;
     }
 
-    /*Display navbar items, hige toggle label*/
-}
+    /*Display navbar items, high toggle label*/
 
-.log-in {
-    width: 100%;
-
-}
-
-
-#menu {
-    display: flex;
-}
-
-#menu>li {
-    padding-left: 1rem;
-}
-
-.nab-toggle-label {
-    display: none;
-}
-
-/* User Icon*/
-body {
-    font-family: 'IBM Plex Sans',
-        sans-serif;
-    margin: 0;
-}
-
-nav {
-    background-color: #fff;
-    padding: 10px;
-}
-
-.user-icon {
-    position: relative;
-    display: inline-block;
-}
-
-.user-icon a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    display: block;
-}
-
-.drop-down {
-    display: none;
-    position: absolute;
-    top: 40px;
-    right: 0;
-    background-color: #333;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.drop-down a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.user-icon:hover .drop-down {
-    display: block;
-}
-
-
-
-/*Make logo larger, push main down to show under lager header*/
-
-#logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
-
-/*Main content*/
-main {
-    margin-top: 79px;
-}
-
-/*large devices(laptops and desktops, 992px and up and add hover effect on large screens*/
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    .log-in {
+        width: 100%;
     }
-}
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nab-toggle-label {
+        display: none;
+    }
+
+    /* User Icon*/
+    body {
+        font-family: 'IBM Plex Sans',
+            sans-serif;
+        margin: 0;
+    }
+
+    nav {
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    .user-icon {
+        position: relative;
+        display: inline-block;
+    }
+
+    .user-icon a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        display: block;
+    }
+
+    .drop-down {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #333;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .drop-down a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .user-icon:hover .drop-down {
+        display: block;
+    }
+
+    /*Make logo larger, push main down to show under lager header*/
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Main content*/
+    main {
+        margin-top: 79px;
+    }
+
+    /*large devices(laptops and desktops, 992px and up and add hover effect on large screens*/
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+    }
 
 
-/**/
+    /**/
