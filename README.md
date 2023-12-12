@@ -34,18 +34,10 @@ More accurate supply and demand forecasting
 Identifying threats and problems affecting computer networks
 More and more software tools are integrating predictive analytics, making it more accessible to users in companies of all sizes. All users can benefit from predictive analytics, even those who have no expertise in data science or advanced analytics. This development is often referred to as “data democratization,” and it means making data available across the organization so everyone can access it to make better decisions.
 
-## Getting Started
-
 ## Prerequisites
 
 - Web browser (e.g., Chrome, Firefox, Safari)
 - (Any other prerequisites or dependencies your project may have)
-
-## Usage
-
-## Contributing
-
-## License
 
 ## Acknowledgments
 
@@ -77,10 +69,13 @@ For any inquiries or feedback, please contact [Noah Samawi] at [noah.alsamawi@gm
 
 ## Testing
 
+Waeder has bin validated via W3C HTML Validator and W3C CSS Vadidator.
+
 ### Validator Testing
 
 - HTML
-- CSS
+- CSS ![Alt Text](../Screenshot-CSS-Validator.png)
+
 - added `title` and `aria-label` attributes to all social links and home link logo to improve accessibility
 
 ### Browser Testing
@@ -120,22 +115,21 @@ I would like to add more relevant images to the site with the price and be able 
 
 ### Validator Testing
 
-- HTML ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
+- HTML ([W3C validator](https://validator.w3.org/nu/#textarea))
 
   - 1 Error:
 
-- CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
+- CSS ([CSS validator](https://jigsaw.w3.org/css-validator/validator))
   - Error:
 - Accessibility ([axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
   - added `title` and `aria-label` attributes to all social links and home link logo to improve accessibility
 - Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
-  ![Lighthouse rating](https://github.com/Kathrin-ddggxh/ci-project1/blob/main/assets/images/readme-images/lighthouse-rating.PNG?raw=true)
+  ![Lighthouse rating](https://8000-noah-samawi-myproject1-h-l6slnfxop6.us2.codeanyapp.com/)
 - Browser Support ([CanIUse](https://caniuse.com/))
-
   - `gap` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
   - `loading="lazy"` attribute on images: not yet fully supported by most browsers; to be included in the future
 
-  ### Browser Testing
+### Browser Testing
 
 **Layout:** Testing layout and appearance of site for consistency throughout browsers.
 
@@ -170,29 +164,3 @@ I would like to add more relevant images to the site with the price and be able 
 No unfixed bugs to date.
 
 ## Deployment
-
-## Credits
-
-### Media
-
-open source sites:
-
-- [Pexels](https://www.pexels.com/)
-- [Pixabay](https://pixabay.com/)
-- [Unsplash](https://unsplash.com/)
-
-### Code
-
-Heart Icon:
-
-- <https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html>
-- <https://unused-css.com/blog/css-half-circle/>
-
-Burger Menu:
-
-- <https://www.w3schools.com/howto/howto_js_mobile_navbar.asp>
-
-### Content
-
-- Fonts were taken from [Google fonts](https://fonts.google.com/)
-- Social media icons were taken from [Font Awesome](https://fontawesome.com/icons)
