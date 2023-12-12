@@ -8,13 +8,20 @@
     box-sizing: border-box;
 }
 
+/* Favicon */
+link[rel*="icon"] {
+    filter: invert(100%);
+    width: 16px;
+    height: 16px;
+}
+
 /* General Styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color: #3a3a3a;
+    color: #3a3a 3a;
     font-family: 'Lato', sans-serif;
 }
 
@@ -82,17 +89,6 @@ nav {
     top: 100%;
 }
 
-/*user-icon*/
-.user-icon {
-    background-color: #fff;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-
-}
-
 /* nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
@@ -105,14 +101,6 @@ nav {
 
 .nab-toggle-label {
     font-size: 2rem;
-}
-
-/*Store section*/
-#hero {
-    height: 600px;
-    width: 100%;
-    /* Add store image*/
-    background: url(../images/waeder-test.jpg) no-repeat center/cover;
 }
 
 #cover-text {
@@ -133,9 +121,16 @@ nav {
     color: #fff;
 }
 
-main {
-    /*Make main element up any surplus space footer sown*/
+/* Video mp4*/
 
+.video-container {
+    position: relative;
+    width: 600px;
+    height: 100vh;
+}
+
+/*Make main element up any surplus space footer sown*/
+main {
     margin-top: 49px;
 }
 
@@ -158,9 +153,29 @@ footer #social-networks {
 /* Style Footer icons for all screen size*/
 #social-networks i {
     font-size: 160%;
-    padding: 5%;
+    padding: 20%;
     color: #3a3a3a;
 }
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* Media query: tablets and larger (768px)*/
+@media (min-width: 768px) {
+
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
     /*Display navbar items, high toggle label*/
 
@@ -192,7 +207,8 @@ footer #social-networks {
         padding: 10px;
     }
 
-    .user-icon {
+    .user-icon,
+    .globe-icon {
         position: relative;
         display: inline-block;
     }
@@ -225,10 +241,66 @@ footer #social-networks {
         display: block;
     }
 
+    /* Globe Icon*/
+    /* Style the navigation items */
+    .nav-item {
+        list-style: none;
+        margin-right: 10px;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: #070505;
+    }
+
+    /* Style the globe icon and drop-down */
+    .globe-icon,
+    .user-icon {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .globe-icon a,
+    .user-icon a {
+        display: block;
+        color: #0e0d0d;
+    }
+
+    .drop-down {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .drop-down a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+
+    /* Show the drop-down when hovering over the globe and user icons */
+    .globe-icon:hover .drop-down,
+    .user-icon:hover .drop-down {
+        display: block;
+    }
+
+    /* Style the user icon */
+    .user-icon i {
+        font-size: 18px;
+        /* Adjust the size of the icon */
+        margin-right: 5px;
+        /* Add margin to the right of the icon */
+    }
+
     /*Make logo larger, push main down to show under lager header*/
 
     #logo {
-        font-size: 280%;
+        font-size: 275%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -236,47 +308,23 @@ footer #social-networks {
     /*Main content*/
     main {
         margin-top: 79px;
+
     }
 
-   /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+    @media screen and (min-width: 768px) {
 
-    #menu {
-        display: flex;
-    }
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
-}
+        /*large devices(laptops and desktops, 992px and up and add hover effect on large screens*/
+        @media screen and (min-width: 992px) {
+            #menu a:hover {
+                border-bottom: 1px solid #3a3a3a;
+            }
+        }
