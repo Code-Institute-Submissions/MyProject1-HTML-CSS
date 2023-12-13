@@ -15,6 +15,16 @@ link[rel*="icon"] {
     height: 16px;
 }
 
+/* Video */
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 /* General Styles */
 body {
     min-height: 100vh;
@@ -50,6 +60,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
 }
 
 header a {
@@ -57,8 +68,94 @@ header a {
     color: inherit;
 }
 
-/*Add logo to header and apply oswald font"*/
+/* Search Icon*/
+.search-container {
+    display: inline-block;
+    position: relative;
+}
 
+.search-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url('search-icon.png') no-repeat center center;
+}
+
+.search-input {
+    padding: 5px 5px 5px 25px;
+    border: 1px solid #ccc;
+}
+
+/*User and globe icon*/
+/* Apply a basic style to the user-icon container */
+.user-icon,
+.globe-icon {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the link inside the user-icon */
+.user-icon,
+.globe-icon a {
+    text-decoration: none;
+    color: #333;
+    /* Set your desired text color */
+    font-size: 20px;
+    /* Set your desired font size */
+}
+
+/* Style the user and globe-icon on hover */
+.user-icon:hover {
+    background-color: #f0f0f0;
+    /* Set your desired background color on hover */
+}
+
+.globe-icon:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the drop-down container */
+.drop-down {
+    position: absolute;
+    top: 100%;
+    right: 4px;
+    display: none;
+    /* Hide the drop-down by default */
+    background-color: #fff;
+    /* Set your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    z-index: 1;
+}
+
+/* Style the log-in and register links inside the drop-down */
+.drop-down a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    /* Set your desired text color */
+    text-decoration: none;
+}
+
+/* Style the links on hover */
+.drop-down a:hover {
+    background-color: #f0f0f0;
+    /* Set your desired background color on hover */
+}
+
+/* Show the drop-down when hovering over the user-icon */
+.user-icon:hover .drop-down {
+    display: block;
+}
+
+/* Show the drop-down when hovering over the user-icon */
+.globe-icon:hover .drop-down {
+    display: block;
+}
+
+/*Add logo to header and apply oswald font"*/
 
 #menu {
     /* Style the navbar menu   */
@@ -121,14 +218,6 @@ nav {
     color: #fff;
 }
 
-/* Video mp4*/
-
-.video-container {
-    position: relative;
-    width: 600px;
-    height: 100vh;
-}
-
 /*Make main element up any surplus space footer sown*/
 main {
     margin-top: 49px;
@@ -140,9 +229,103 @@ main {
     right: 50px;
 }
 
-/* Style Footer icons for all screen size*/
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
 
-footer #social-networks {
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-imag2.jpeg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url("../images/PA-image.png") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+
+
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Gallery page */
+#photos img {
+    height: 300px;
+    width: 400px;
+
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
+/* Footer */
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -150,10 +333,9 @@ footer #social-networks {
     list-style-type: none;
 }
 
-/* Style Footer icons for all screen size*/
 #social-networks i {
     font-size: 160%;
-    padding: 20%;
+    padding: 5%;
     color: #3a3a3a;
 }
 
@@ -165,22 +347,16 @@ footer #social-networks {
     }
 }
 
-/* Media query: tablets and larger (768px)*/
-@media (min-width: 768px) {
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
-    /*Header*/
+    /* Header */
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-    }
-
-    /*Display navbar items, high toggle label*/
-
-    .log-in {
-        width: 100%;
     }
 
     #menu {
@@ -191,140 +367,98 @@ footer #social-networks {
         padding-left: 1rem;
     }
 
-    .nab-toggle-label {
+    .nav-toggle-label {
         display: none;
     }
-
-    /* User Icon*/
-    body {
-        font-family: 'IBM Plex Sans',
-            sans-serif;
-        margin: 0;
-    }
-
-    nav {
-        background-color: #fff;
-        padding: 10px;
-    }
-
-    .user-icon,
-    .globe-icon {
-        position: relative;
-        display: inline-block;
-    }
-
-    .user-icon a {
-        text-decoration: none;
-        color: black;
-        padding: 10px;
-        display: block;
-    }
-
-    .drop-down {
-        display: none;
-        position: absolute;
-        top: 40px;
-        right: 0;
-        background-color: #333;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-
-    .drop-down a {
-        display: block;
-        padding: 10px;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .user-icon:hover .drop-down {
-        display: block;
-    }
-
-    /* Globe Icon*/
-    /* Style the navigation items */
-    .nav-item {
-        list-style: none;
-        margin-right: 10px;
-    }
-
-    .nav-item a {
-        text-decoration: none;
-        color: #070505;
-    }
-
-    /* Style the globe icon and drop-down */
-    .globe-icon,
-    .user-icon {
-        position: relative;
-        cursor: pointer;
-    }
-
-    .globe-icon a,
-    .user-icon a {
-        display: block;
-        color: #0e0d0d;
-    }
-
-    .drop-down {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #333;
-        padding: 10px;
-        list-style: none;
-    }
-
-    .drop-down a {
-        display: block;
-        color: rgb(9, 9, 9);
-        text-decoration: none;
-        margin-bottom: 5px;
-    }
-
-    /* Show the drop-down when hovering over the globe and user icons */
-    .globe-icon:hover .drop-down,
-    .user-icon:hover .drop-down {
-        display: block;
-    }
-
-    /* Style the user icon */
-    .user-icon i {
-        font-size: 18px;
-        /* Adjust the size of the icon */
-        margin-right: 5px;
-        /* Add margin to the right of the icon */
-    }
-
-    /*Make logo larger, push main down to show under lager header*/
 
     #logo {
-        font-size: 275%;
+        font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 
-    /*Main content*/
+    /* Main content */
     main {
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
-
     }
 
-    @media screen and (min-width: 768px) {
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
+    /* Reasons section */
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
+    }
+
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+
+    /*Sign Up Form */
+
+    .form-section {
+        clear: left;
+        background: url("../images/PA-image1.png");
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
         }
 
-        /*large devices(laptops and desktops, 992px and up and add hover effect on large screens*/
-        @media screen and (min-width: 992px) {
-            #menu a:hover {
-                border-bottom: 1px solid #3a3a3a;
-            }
+        /* Gallery */
+        #photos {
+            column-count: 4;
         }
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        /* Reasons section */
+        #benefits {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #benefits>div {
+            flex: 1;
+        }
+
+        #benefits-image {
+            order: 0;
+        }
+
+        #benefits-mental {
+            order: 1;
+        }
+
+        #benefits-mental>div {
+            align-self: flex-start;
+        }
+
+        #benefits-physical>div {
+            align-self: flex-end;
+        }
+    }
