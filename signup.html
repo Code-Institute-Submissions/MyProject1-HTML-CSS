@@ -1,106 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8" />
-<meta http-equiv="x-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="device-width, initial-scale=1.0" />
-<!-- Meta tags for search engines -->
-<meta name="description" content="Waeder. Predictive Analytics in Frankfurt, Germany" />
-<meta name="keywords" content="Wader, predictive analytics germany, frankfurt" />
-<!-- Title -->
-<title>Waeder</title>
 
-<!-- Stylesheet -->
-<link rel="stylesheet" href="assets/css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="Waeder. Predictive Analytics">
+    <meta name="keywords" content="waeder, predictive analytics">
+    <!-- Title -->
+    <title>Waeder</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.webp" type="image/webp">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- Header -->
+<header>
+    <a href="index.html">
+        <h1 id="logo">waeder</h1>
+    </a>
 
-<body>
-    <!-- Header -->
-    <header>
-        <a href="index.html">
-            <h1 id="logo">waeder</h1>
-        </a>
+    <!-- create navigation Section-->
 
-        <!-- create navigation Section-->
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label">
+        <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
+    </label>
 
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label">
-            <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
-        </label>
-
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="gallery.html"> Gallery</a></li>
-                <li><a href="solutions.html">Solutions</a></li>
-                <li><a href="singup.html" class="active">Sign Up</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Sign Up -->
-    <main>
-        <section class="form-section">
-            <div class="login-container">
-                <form>
-                    <h2>Sign Up</h2>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required>
-
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName" required>
-
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName" required>
-
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" name="phone" required>
-
-                    <label for="company">Company:</label>
-                    <input type="text" id="company" name="company" required>
-
-                    <label for="canary">Country:</label>
-                    <input type="text" id="canary" name="canary" required>
-
-                    <label for="spiced">postal code:</label>
-                    <input type="text" id="spiced" name="spiced" required>
-
-                    <button type="submit">Login</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <!-- Add first footer link -->
-
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="visit our facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-
-            <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="visit our youtube page (open in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-
-            <li>
-                <a href="https://www.x.com" target="_blank" rel="noopener"
-                    aria-label="visit our x page (open in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-
-            <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="visit our instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="gallery.html"> Gallery</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="singup.html" class="active">Sign Up</a></li>
         </ul>
-    </footer>
-    <!-- Font awesome kit -->
-    <script src="https://kit.fontawesome.com/382d82ce45.js" crossorigin="anonymous"></script>
+    </nav>
+</header>
+
+<!-- Sign Up -->
+<main>
+    <section class="form-section">
+        <div class="login-container">
+            <form>
+                <h2>Sign Up</h2>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company" required>
+
+                <label for="canary">Country:</label>
+                <input type="text" id="canary" name="canary" required>
+
+                <label for="spiced">postal code:</label>
+                <input type="text" id="spiced" name="spiced" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <!-- Add first footer link -->
+
+    <ul id="social-networks">
+        <li>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="visit our facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                aria-label="visit our youtube page (open in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.x.com" target="_blank" rel="noopener"
+                aria-label="visit our x page (open in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="visit our instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+    </ul>
+</footer>
+<!-- Font awesome kit -->
+<script src="https://kit.fontawesome.com/382d82ce45.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color: #3a3a 3a;
+    color: #3a3a;
     font-family: 'Lato', sans-serif;
 }
 
@@ -582,7 +582,7 @@ main {
         display: flex;
         flex-direction: column;
         /* Generic project styles*/
-        color: #3a3a 3a;
+        color: #3a3a;
         font-family: 'Lato', sans-serif;
     }
 
@@ -630,11 +630,11 @@ main {
             order: 1;
         }
 
-        #benefits-mental>div {
+        #benefits-mental {
             align-self: flex-start;
         }
 
-        #benefits-physical>div {
+        #benefits-physical {
             align-self: flex-end;
         }
     }
