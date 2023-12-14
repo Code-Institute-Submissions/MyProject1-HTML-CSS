@@ -16,111 +16,22 @@ link[rel*="icon"] {
 }
 
 /* Video */
+video {
+    width: 100%;
+
+    background-color: #000;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
 .embed-responsive {
-    position: fixed;
+    position: relative;
     overflow: hidden;
     padding-top: 56.25%;
 }
 
-.embed-responsive iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    border: 0;
-}
-
-/*contact page headings*/
-#contact {
-    justify-content: center;
-
-}
-
-#contact h2 {
-    font-family: 'Lato', sans-serif;
-    padding: 3px 3px 3px 3px;
-    display: flex;
-    justify-content: center;
-    background-color: #05386f;
-    width: 58%;
-    margin-left: 21%;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-    text-align: center;
-}
-
-#contact h3 {
-    padding: 3px 3px 3px 3px;
-    display: flex;
-    justify-content: center;
-    width: 74%;
-    margin-left: 13%;
-    border: 2px solid #05386f;
-    margin-top: 20px;
-    border-radius: 12px;
-    text-align: center;
-}
-
-/*Sign Up Form */
-
-.form-section {
-    clear: left;
-    background: url("../images/PA-imag7.png");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-
-/*contact form*/
-.contact-form {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.contact-form-container {
-    max-width: 900px;
-    margin-top: 20px;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    padding: 0 20px 20px 20px;
-    box-shadow: 10px 10px 10px #379683;
-    background-color: #edf5e1;
-    border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-
-}
-
-.contact-form label {
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.contact-form input,
-textarea {
-    padding: 10px;
-    margin: 5px 0 15px;
-    border: 1px solid #05386f;
-    border-radius: 8px;
-}
-
-.contact-form button {
-    background-color: #5cdb95;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #e0e48e;
-}
 
 /* General Styles */
 body {
@@ -389,7 +300,7 @@ main {
     margin: 5px 0;
 }
 
-#circle-cover-bg {
+#square-cover-bg {
     background: url("../images/PA-image.png") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
@@ -406,6 +317,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 100%;
 }
 
 /* Gallery page */
@@ -510,13 +422,180 @@ main {
     }
 
     /*Sign Up Form */
-
     .form-section {
         clear: left;
-        background: url("../images/PA-image1.png");
+        background: url("../images/PA-imag4.webp");
         background-size: cover;
         background-position: center;
         height: 900px;
+    }
+
+    /* Reset some default styles */
+    body,
+    h1,
+    p,
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Apply a basic style to the user-icon container */
+    .user-icon {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Style the link inside the user-icon */
+    .user-icon a {
+        text-decoration: none;
+        color: #333;
+        /* Set your desired text color */
+        font-size: 20px;
+        /* Set your desired font size */
+    }
+
+    /* Style the user-icon on hover */
+    .user-icon:hover {
+        background-color: #f0f0f0;
+        /* Set your desired background color on hover */
+    }
+
+    /* Style the drop-down container */
+    .drop-down {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        /* Hide the drop-down by default */
+        background-color: #fff;
+        /* Set your desired background color */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        /* Add a subtle box shadow */
+        z-index: 1;
+    }
+
+    /* Style the log-in and register links inside the drop-down */
+    .drop-down a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        /* Set your desired text color */
+        text-decoration: none;
+    }
+
+    /* Style the links on hover */
+    .drop-down a:hover {
+        background-color: #f0f0f0;
+        /* Set your desired background color on hover */
+    }
+
+    /* Show the drop-down when hovering over the user-icon */
+    .user-icon:hover .drop-down {
+        display: block;
+    }
+
+
+    /*contact page headings*/
+    #contact {
+        justify-content: center;
+
+    }
+
+    #contact h2 {
+        padding: 3px 3px 3px 3px;
+        display: flex;
+        justify-content: center;
+        background-color: #62669f;
+        width: 58%;
+        margin-left: 21%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    #contact h3 {
+        font-family: 'Lato', sans-serif;
+        padding: 3px 3px 3px 3px;
+        display: flex;
+        justify-content: center;
+        width: 74%;
+        margin-left: 13%;
+        border: 2px solid #4c88b0;
+        margin-top: 20px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    /*contact form*/
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact-form-container {
+        max-width: 900px;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        padding: 0 20px 20px 20px;
+        box-shadow: 10px 10px 10px #379683;
+        background-color: #edf5e1;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+    .contact-form label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .contact-form input,
+    textarea {
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #05386f;
+        border-radius: 8px;
+    }
+
+    .contact-form button {
+        background-color: #5cdb95;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .contact-form button:hover {
+        background-color: #e0e48e;
+    }
+
+    /* General Styles */
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* Generic project styles*/
+        color: #3a3a 3a;
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+
+        font-family: 'Lato', sans-serif;
+        /* Make header uppercase und change the color*/
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #252525;
+        font-weight: 700;
     }
 
     /* Large devices (laptops and desktops, 992px and up) */

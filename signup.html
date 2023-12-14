@@ -1,165 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <meta http-equiv="x-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="device-width, initial-scale=1.0" />
-  <!-- Meta tags for search engines -->
-  <meta
-    name="description"
-    content="Waeder. Predictive Analytics in Frankfurt, Germany"
-  />
-  <meta
-    name="keywords"
-    content="Wader, predictive analytics germany, frankfurt"
-  />
-  <!-- Title -->
-  <title>Waeder</title>
+<meta charset="UTF-8" />
+<meta http-equiv="x-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="device-width, initial-scale=1.0" />
+<!-- Meta tags for search engines -->
+<meta name="description" content="Waeder. Predictive Analytics in Frankfurt, Germany" />
+<meta name="keywords" content="Wader, predictive analytics germany, frankfurt" />
+<!-- Title -->
+<title>Waeder</title>
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+<!-- Stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css" />
 
-  <body>
+<body>
     <!-- Header -->
     <header>
-      <a href="index.html">
-        <h1 id="logo">waeder</h1>
-      </a>
+        <a href="index.html">
+            <h1 id="logo">waeder</h1>
+        </a>
 
-      <!-- create navigation Section-->
+        <!-- create navigation Section-->
 
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
-      </label>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
+        </label>
 
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html"> Home</a></li>
-          <li><a href="gallery.html"> Gallery</a></li>
-          <li><a href="solutions.html">Solutions</a></li>
-          <li><a href="singup.html" class="active">Sign Up</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="gallery.html"> Gallery</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="singup.html" class="active">Sign Up</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Sign Up -->
     <main>
-      <section class="form-section">
-        <form method="POST" action="" class="signup-form">
-          <h2>Signed up!</h2>
-          <label for="fname">First Name</label>
-          <input id="fname" name="first_name" type="text" required />
+        <section class="form-section">
+            <div class="login-container">
+                <form>
+                    <h2>Sign Up</h2>
 
-          <label for="lname">Last Name</label>
-          <input id="lname" name="last_name" type="text" required />
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email_address" required />
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
 
-          <label for="road">Road</label>
-          <input
-            type="radio"
-            id="road"
-            name="running_preference"
-            value="road"
-            required
-          />
-          <label for="trail">Trail</label>
-          <input
-            type="radio"
-            id="trail"
-            name="running_preference"
-            value="trail"
-            required
-          />
-          <label for="both">Both</label>
-          <input
-            type="radio"
-            id="both"
-            name="running_preference"
-            value="both"
-            required
-          />
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
 
-          <input class="join-button" type="submit" value="Let's Run!" />
-        </form>
-      </section>
-      <!--Contact page headers-->
-      <section id="contact">
-        <h3>
-          Do you have Questions or suggestions? We love to hear from you! Share
-          your performance with us or contact us if you have any questions. Your
-          participation and communication please us.!
-        </h3>
-        <h2>Contact Us</h2>
-      </section>
-      <div class="contact-form-container">
-        <!-- forms do not submit the data but i will do it later with  js-->
-        <form class="contact-form" action="success.html">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-          <br />
-          <button type="submit">Submit</button>
-        </form>
-      </div>
+                    <label for="company">Company:</label>
+                    <input type="text" id="company" name="company" required>
+
+                    <label for="canary">Country:</label>
+                    <input type="text" id="canary" name="canary" required>
+
+                    <label for="spiced">postal code:</label>
+                    <input type="text" id="spiced" name="spiced" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <!-- Add first footer link -->
+        <!-- Add first footer link -->
 
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our facebook page (open in a new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
 
-        <li>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our youtube page (open in a new tab)"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="visit our youtube page (open in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
 
-        <li>
-          <a
-            href="https://www.x.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our x page (open in a new tab)"
-            ><i class="fa-brands fa-x-twitter"></i
-          ></a>
-        </li>
+            <li>
+                <a href="https://www.x.com" target="_blank" rel="noopener"
+                    aria-label="visit our x page (open in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
 
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our instagram page (open in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
     <!-- Font awesome kit -->
-    <script
-      src="https://kit.fontawesome.com/382d82ce45.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/382d82ce45.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

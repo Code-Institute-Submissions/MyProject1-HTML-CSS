@@ -1,108 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> </head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="x-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="device-width, initial-scale=1.0" />
-  <!-- Meta tags for search engines -->
-  <meta
-    name="description"
-    content="Waeder. Predictive Analytics in Frankfurt, Germany"
-  />
-  <meta
-    name="keywords"
-    content="waeder, predictive analytics germany, frankfurt"
-  />
-  <!-- Title -->
-  <title>waeder</title>
-  <!-- Favicon -->
-  <link rel="icon" href="assets/images/favicon.jpg" type="image/peg" />
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+<head> </head>
+<meta charset="UTF-8" />
+<meta http-equiv="x-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="device-width, initial-scale=1.0" />
+<!-- Meta tags for search engines -->
+<meta name="description" content="Waeder. Predictive Analytics in Frankfurt, Germany" />
+<meta name="keywords" content="waeder, predictive analytics germany, frankfurt" />
+<!-- Title -->
+<title>waeder</title>
+<!-- Favicon -->
+<link rel="icon" href="assets/images/favicon.jpg" type="image/peg" />
 
-  <body>
+<!-- Stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<body>
     <!-- Header -->
     <header>
-      <a href="index.html">
-        <h1 id="logo">Waeder</h1>
-      </a>
+        <a href="index.html">
+            <h1 id="logo">Waeder</h1>
+        </a>
 
-      <!--create navigation Section"-->
+        <!--create navigation Section"-->
 
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
-      </label>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
+        </label>
 
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html"> Home</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
-          <li><a href="solutions.html" class="active">Solutions</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="solutions.html" class="active">Solutions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main content -->
     <main>
-      <!-- video Background -->
-      <div class="embed-responsive">
-        <iframe src="assets/images/waeder-video.mp4" 
-        autoplay muted control frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        <!--Contact Footer -->
+        <!-- video Background -->
+        <video width="640" height="360" controls>
+            <source src="assets/images/waeder-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--Contact page headers-->
+        <section id="contact">
+            <h3>
+                Do you have Questions or suggestions? We love to hear from you! Share
+                your performance with us or contact us if you have any questions. Your
+                participation and communication please us.!
+            </h3>
+            <h2>Contact Us</h2>
+        </section>
+        <div class="contact-form-container">
+            <!-- forms do not submit the data but i will do it later with  js-->
+            <form class="contact-form" action="success.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br />
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    <!--Contact Footer -->
     <footer>
-      <!-- Footer link -->
+        <!-- Footer link -->
 
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our facebook page (open in a new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
 
-        <li>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our youtube page (open in a new tab)"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="visit our youtube page (open in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
 
-        <li>
-          <a
-            href="https://www.x.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our x page (open in a new tab)"
-            ><i class="fa-brands fa-x-twitter"></i
-          ></a>
-        </li>
+            <li>
+                <a href="https://www.x.com" target="_blank" rel="noopener"
+                    aria-label="visit our x page (open in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
 
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="visit our instagram page (open in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
     <!-- Font awesome kit -->
-    <script
-      src="https://kit.fontawesome.com/382d82ce45.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/382d82ce45.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
