@@ -13,7 +13,7 @@ This site implements the very basic features of a static website.
   - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
-    ![navbar](http://127.0.0.1:5500/Wadi-PP1/index.html)
+    ![navbar]('http://127.0.0.1:5500/Wadi-PP1/index.html')
 
 - **Store image and Banner text**
   - The background image and text design is just a temporary image until the main background image is designed.
