@@ -2,7 +2,10 @@
 
 **Fonts:** "IBM Plex Sans, ans-serif"
 
-**Colours:** Different colors will be chosen, but black, white, and gree are still the main colors, because I think they are the colors that are most attractive to the customer.
+**Colours:** 
+
+Different colors will be chosen, but black, white, and blue are still the main colors.
+
 
 ## Features
 
@@ -57,11 +60,11 @@ This site implements the very basic features of a static website.
 
   ![contact-us](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/04c7f2dd-6e19-4d3c-839d-ac877b698f12)
 
+## UX
 
+### Site goals
 
-## Site goals
-
-This site is just a site for virtual small company, the purpose is to training for what i learn.
+The aim of this website is to provide services to other companies in the area of predictive analytics.
 
 ## Project Description
 
