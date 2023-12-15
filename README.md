@@ -8,10 +8,20 @@
 
 This site implements the very basic features of a static website.
 
+- **Home Gallery**
+  
+    - A simple gallery of images at the bottom of the hompage adds a visual insight into the club the site is portraying.
+    - Images are supposed to show important or fun moments for club members.
+
+ 
+![Gallery](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/9b8f30ce-083f-48d4-843d-8d3afe2daae1)
+
 - **Navigation Bar**
-- 
+  
   - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
+ 
+    
 ![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ecc057d7-614c-4604-988a-1bd3d7738a43)
 
 - **Hero image and Banner textr**
@@ -22,10 +32,32 @@ This site implements the very basic features of a static website.
 - **Store image and Banner text**
   - The background image and text design is just a temporary image until the main background image is designed.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
+ 
+    
     ![Hero-image](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ccb747ca-930d-42d3-82e9-c8e3149ed1f1)
 
+- **Main Content**
+-  - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
+    - Subtle borders of the site's primary colour surround each section to give a clear division of information.
 
-## UX
+![Main-Content](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/1859296f-77fd-4f99-a424-db7c3e3f536f)
+
+- **Footer**
+    - The footer element contains 4 icons, linking to the main social media platforms.
+    - The icons are styled in the sites primary colour.
+    - The footer is consistent througout all pages.
+ 
+      ![footer](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/cd12b881-53d7-4029-886f-a22351186278)
+
+      
+- **Contact US**
+- es a section inside solutions page
+- Name and email are mandotory fields and message are optional.
+
+
+  ![contact-us](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/04c7f2dd-6e19-4d3c-839d-ac877b698f12)
+
+
 
 ## Site goals
 
