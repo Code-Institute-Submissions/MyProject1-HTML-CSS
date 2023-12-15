@@ -9,15 +9,21 @@
 This site implements the very basic features of a static website.
 
 - **Navigation Bar**
-![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ecc057d7-614c-4604-988a-1bd3d7738a43)
-
+- 
   - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
+![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ecc057d7-614c-4604-988a-1bd3d7738a43)
 
-    ![navbar]('http://127.0.0.1:5500/Wadi-PP1/index.html')
+- **Hero image and Banner textr**
 
+- Featured in the header of all four pages. Includes the club's logo and links to Home page, About page, Events page and Contact form.
+
+  
 - **Store image and Banner text**
   - The background image and text design is just a temporary image until the main background image is designed.
+  - Uniform format allows for easy navigation on all pages without the use of the "back" button.
+    ![Hero-image](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ccb747ca-930d-42d3-82e9-c8e3149ed1f1)
+
 
 ## UX
 
