@@ -9,7 +9,8 @@
 This site implements the very basic features of a static website.
 
 - **Navigation Bar**
-<p align="center"> <img alt="Navpar.PNG" src="asss"> </p>
+![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ecc057d7-614c-4604-988a-1bd3d7738a43)
+
   - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
