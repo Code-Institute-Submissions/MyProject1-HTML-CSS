@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color: #3a3a;
+    color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
@@ -64,7 +64,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #fff;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -89,6 +89,7 @@ header a {
     width: 20px;
     height: 20px;
     background: url('search-icon.png') no-repeat center center;
+    display: flex;
 }
 
 .search-input {
@@ -97,11 +98,12 @@ header a {
 }
 
 /*User and globe icon*/
-/* Apply a basic style to the user-icon container */
+
 .user-icon,
 .globe-icon {
     position: relative;
     display: inline-block;
+    display: flex;
 }
 
 /* Style the link inside the user-icon */
@@ -109,15 +111,14 @@ header a {
 .globe-icon a {
     text-decoration: none;
     color: #333;
-    /* Set your desired text color */
     font-size: 20px;
-    /* Set your desired font size */
+
 }
 
 /* Style the user and globe-icon on hover */
 .user-icon:hover {
-    background-color: #f0f0f0;
-    /* Set your desired background color on hover */
+    background-color: rgb(255, 255, 255);
+
 }
 
 .globe-icon:hover {
@@ -128,37 +129,29 @@ header a {
 .drop-down {
     position: absolute;
     top: 100%;
-    right: 4px;
+    left: 4px;
     display: none;
-    /* Hide the drop-down by default */
     background-color: #fff;
-    /* Set your desired background color */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Add a subtle box shadow */
     z-index: 1;
 }
 
-/* Style the log-in and register links inside the drop-down */
 .drop-down a {
     display: block;
     padding: 10px;
     color: #333;
-    /* Set your desired text color */
     text-decoration: none;
 }
 
-/* Style the links on hover */
 .drop-down a:hover {
     background-color: #f0f0f0;
-    /* Set your desired background color on hover */
+
 }
 
-/* Show the drop-down when hovering over the user-icon */
 .user-icon:hover .drop-down {
     display: block;
 }
 
-/* Show the drop-down when hovering over the user-icon */
 .globe-icon:hover .drop-down {
     display: block;
 }
@@ -241,7 +234,7 @@ main {
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
+    /* margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
@@ -277,6 +270,7 @@ main {
 #reasons {
     width: 90%;
     margin: 20px auto;
+
 }
 
 #reasons h2 {
@@ -301,7 +295,7 @@ main {
 }
 
 #square-cover-bg {
-    background: url("../images/PA-image.png") no-repeat top center / cover;
+    background: url("") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -398,24 +392,6 @@ main {
         right: 50px;
     }
 
-    /* Reasons section */
-    #benefits-physical,
-    #benefits-mental {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #benefits-physical>div,
-    #benefits-mental>div {
-        width: 75%;
-    }
-
-    #benefits-mental>div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
     /* Gallery */
     #photos {
         column-count: 3;
@@ -427,7 +403,8 @@ main {
         background: url("../images/PA-imag4.webp");
         background-size: cover;
         background-position: center;
-        height: 900px;
+        height: 1100px;
+
     }
 
     /* Reset some default styles */
@@ -453,6 +430,7 @@ main {
         /* Set your desired text color */
         font-size: 20px;
         /* Set your desired font size */
+
     }
 
     /* Style the user-icon on hover */
@@ -496,7 +474,7 @@ main {
     }
 
 
-    /*contact page headings*/
+    /*contact us*/
     #contact {
         justify-content: center;
 
@@ -506,7 +484,7 @@ main {
         padding: 3px 3px 3px 3px;
         display: flex;
         justify-content: center;
-        background-color: #62669f;
+        background-color: #4c88b0;
         width: 58%;
         margin-left: 21%;
         margin-top: 15px;
@@ -528,7 +506,6 @@ main {
         text-align: center;
     }
 
-    /*contact form*/
     .contact-form {
         display: flex;
         flex-direction: column;
@@ -541,8 +518,8 @@ main {
         margin-left: 25px;
         margin-bottom: 25px;
         padding: 0 20px 20px 20px;
-        box-shadow: 10px 10px 10px #379683;
-        background-color: #edf5e1;
+        box-shadow: 10px 10px 10px #375d96;
+        background-color: #e1e7f5;
         border-radius: 12px;
         margin-left: auto;
         margin-right: auto;
@@ -559,12 +536,12 @@ main {
     textarea {
         padding: 10px;
         margin: 5px 0 15px;
-        border: 1px solid #05386f;
+        border: 1px solid s#050e6f;
         border-radius: 8px;
     }
 
     .contact-form button {
-        background-color: #5cdb95;
+        background-color: #5c97db;
         color: #fff;
         padding: 10px;
         border: none;
@@ -573,7 +550,7 @@ main {
     }
 
     .contact-form button:hover {
-        background-color: #e0e48e;
+        background-color: #8ed1e4;
     }
 
     /* General Styles */
@@ -582,7 +559,7 @@ main {
         display: flex;
         flex-direction: column;
         /* Generic project styles*/
-        color: #3a3a;
+        color: rgba(51, 97, 170, 0.667) 3a;
         font-family: 'Lato', sans-serif;
     }
 
@@ -630,11 +607,11 @@ main {
             order: 1;
         }
 
-        #benefits-mental {
+        #benefits-mental>div {
             align-self: flex-start;
         }
 
-        #benefits-physical {
+        #benefits-physical>div {
             align-self: flex-end;
         }
     }
