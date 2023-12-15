@@ -9,7 +9,7 @@
 This site implements the very basic features of a static website.
 
 - **Navigation Bar**
-
+<p align="center"> <img alt="Navpar.PNG" src="asss"> </p>
   - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
