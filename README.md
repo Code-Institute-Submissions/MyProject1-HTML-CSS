@@ -165,12 +165,12 @@ All stock images were sourced from the following open source sites:
 
 ## Deployment & Local Development
 
-The site is deployed using GitHub Pages: https://redifo.github.io/ci_pp1/](https://noah-samawi.github.io/MyProject1-HTML-CSS/
+The site is deployed using GitHub Pages:  https://noah-samawi.github.io/MyProject1-HTML-CSS/
+To Deploy the site using GitHub Pages follow these steps:   MyProject1-HTML-CSS
 
-To Deploy the site using GitHub Pages follow these steps:
 
 1. Log in or sign up on GitHub.
-2. Navigate to the project repository at [Noah-Samawi/MyProject-HTML-CSS]
+2. Navigate to the project repository at [Noah-Samawi/MyProject1-HTML-CSS](https://github.com/Noah-Samawi/MyProject1-HTML-CSS.git)
 4. Click on the "Settings" button.
 5. Choose "Pages" from the left-hand menu.
 6. In the source dropdown, select the main branch and click "Save."
@@ -184,7 +184,7 @@ To fork the repository:
 
 1. Log in or sign up on GitHub.
 2. Visit the project repository at  [
-2. Navigate to the project repository at [Noah-Samawi/MyProject-HTML-CSS]
+2. Navigate to the project repository at [Noah-Samawi/MyProject1-HTML-CSS](https://github.com/Noah-Samawi/MyProject1-HTML-CSS.git)
 3. Click the "Fork" button in the top right corner.
 
 #### How to Clone
@@ -192,7 +192,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in or sign up on GitHub.
-2. Go to the project repository at [Noah-Samawi/MyProject-HTML-CSS]
+2. Go to the project repository at [Noah-Samawi/MyProject1-HTML-CSS](https://github.com/Noah-Samawi/MyProject1-HTML-CSS.git)
 3. Click on the "Code" button, choose whether to clone with HTTPS, SSH, or GitHub CLI, and copy the provided link.
 4. Open the terminal in your code editor, navigate to the desired location for the cloned directory.
 5. Type 'git clone' in the terminal and paste the link from step 3. Press enter.
