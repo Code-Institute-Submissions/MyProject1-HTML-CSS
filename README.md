@@ -239,7 +239,8 @@ I would like to add more relevant images to the site with the price and be able 
 |       **Form submit button**        |                         Form submits when submit button is clicked                          | Fill out form and click submit button |        CI form dump page opens and displays form contents        |
 
 
-
+## Bugs
+During development the click to reveal function was tried to be implemented using only css. the chekbox method was tried to be used but the label for the checkbox needed to be a div ad that caused errors in the html validator. also the code was sometimes working for some boxes but not for all boxes, therefore javascript was used to implement that method. other small issues was faced during development but nothing important that can be mentioned within this bugs title.
 
 ### Unfixed bugs
 
