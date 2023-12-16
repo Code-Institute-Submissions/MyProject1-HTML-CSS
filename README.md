@@ -14,41 +14,43 @@ Different colors will be chosen, but black, white, and blue are still the main c
 
 This site implements the very basic features of a static website.
 
-- **Home Gallery**
+ **Home Gallery**
 
   - A simple gallery of images at the bottom of the hompage adds a visual insight into the club the site is portraying.
   - Images are supposed to show important or fun moments for club members.
 
 ![Gallery](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/1d599d3d-f1cd-4dec-9626-b41f96e73e0a)
 
-- **Navigation Bar**
+**Navigation Bar**
 
   - Featured in the header of all three pages. Includes links to Home page, Solutions page and Sign UP Page.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
 ![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/f81ab17b-d219-48eb-a173-1435c9c8bbc1)
 
-- **Hero image and Banner textr**
+**Hero image and Banner textr**
 
 - Featured in the header of all four pages. Includes the club's logo and links to Home page, Solutions page and Sign UP Page.
-- **Store image and Banner text**
+  
+**Store image and Banner text**
 
-  - The background image and text design is just a temporary image until the main background image is designed.
-  - Uniform format allows for easy navigation on all pages without the use of the "back" button.
+- The background image and text design is just a temporary image until the main background image is designed.
+- Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
     ![Hero-image](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ccb747ca-930d-42d3-82e9-c8e3149ed1f1)
 
-- **Main Content**
+**Main Content**
+
   - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
   - Subtle borders of the site's primary colour surround each section to give a clear division of information.
 
 ![Main-Content](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/b6c40a24-85fb-487e-80b7-4e2a2e2263e8)
 
-- **Sign UP**
+**Sign UP**
 
 ![Signup-Form](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/11e03de4-55b0-4bd9-8b23-e1490185eb43)
 
-- **Footer**
+**Footer**
 
   - The footer element contains 4 icons, linking to the main social media platforms.
   - The icons are styled in the sites primary colour.
@@ -56,7 +58,7 @@ This site implements the very basic features of a static website.
 
     ![footer](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/cd12b881-53d7-4029-886f-a22351186278)
 
-- **Contact US**
+**Contact US**
 - es a section inside solutions page
 - Name and email are mandotory fields and message are optional.
 
