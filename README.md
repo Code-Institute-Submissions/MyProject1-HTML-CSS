@@ -117,7 +117,8 @@ Waeder has bin validated via W3C HTML Validator and W3C CSS Vadidator.
 
 ### Validator Testing
 
-- HTML
+- HTML <img width="1046" alt="Html-Code-Validation" src="https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/807dff3a-c4fc-4d34-9290-ff5b48aec793">
+
 - CSS 
 
 - Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
