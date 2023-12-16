@@ -160,23 +160,7 @@ I would like to be able to update the About and Home pages.
 I would like to be able to update the new goods and add new waiting/articale.
 I would like to add more relevant images to the site with the price and be able to create a more extensive gallery.
 
-### Validator Testing
 
-- HTML ([W3C validator](https://validator.w3.org/nu/#textarea))
-
-  - 1 Error:
-
-- CSS ([CSS validator](https://jigsaw.w3.org/css-validator/validator))
-  - Error:
-- Accessibility ([axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd))
-  - added `title` and `aria-label` attributes to all social links and home link logo to improve accessibility
-- Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
-  ![Lighthouse rating](https://8000-noah-samawi-myproject1-h-l6slnfxop6.us2.codeanyapp.com/)
-- Browser Support ([CanIUse](https://caniuse.com/))
-  - `gap` property for Flexbox: according to caniuse.com this property has a global support of 88.95%
-  - `loading="lazy"` attribute on images: not yet fully supported by most browsers; to be included in the future
-
-### Browser Testing
 
 **Layout:** Testing layout and appearance of site for consistency throughout browsers.
 
