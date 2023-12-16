@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*Asterisk wildcard selector to override default style by the browser*/
 * {
@@ -45,26 +45,27 @@ body {
 
 h1,
 h2,
-h3 {
+h3
+h4 {
 
     font-family: 'Lato', sans-serif;
     /* Make header uppercase und change the color*/
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-    font-weight: 700;
+    letter-spacing: 4px;
+    color: #0b0a0a;
+    font-weight:900;
 }
 
 /*Header*/
 header {
     background-color: #fff;
-
-    /* Make header fixed and change background color*/
+color: #050505;
+    padding: 0 1rem;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 10;
     width: 100%;
-    box-shadow: 0 2px 2px #fff;
+    box-shadow: 1px 1px 5px 5px #4177ae;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -76,87 +77,12 @@ header a {
     color: inherit;
 }
 
-/* Search Icon*/
-.search-container {
-    display: inline-block;
-    position: relative;
-}
+/*logo img*/
+#logo-img {
+    max-height: 6rem;
+    width: auto;
+  }
 
-.search-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: url('search-icon.png') no-repeat center center;
-    display: flex;
-}
-
-.search-input {
-    padding: 5px 5px 5px 25px;
-    border: 1px solid #ccc;
-}
-
-/*User and globe icon*/
-
-.user-icon,
-.globe-icon {
-    position: relative;
-    display: inline-block;
-    display: flex;
-}
-
-/* Style the link inside the user-icon */
-.user-icon,
-.globe-icon a {
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-
-}
-
-/* Style the user and globe-icon on hover */
-.user-icon:hover {
-    background-color: rgb(255, 255, 255);
-
-}
-
-.globe-icon:hover {
-    background-color: #f0f0f0;
-}
-
-/* Style the drop-down container */
-.drop-down {
-    position: absolute;
-    top: 100%;
-    left: 4px;
-    display: none;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-.drop-down a {
-    display: block;
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
-}
-
-.drop-down a:hover {
-    background-color: #f0f0f0;
-
-}
-
-.user-icon:hover .drop-down {
-    display: block;
-}
-
-.globe-icon:hover .drop-down {
-    display: block;
-}
-
-/*Add logo to header and apply oswald font"*/
 
 #menu {
     /* Style the navbar menu   */
@@ -251,12 +177,12 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, 0.7);
+    background-color: rgb(107 188 241 / 70%);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
-    min-height: 200px;
+    min-height: 150px;
     padding-top: 40px;
     padding-left: 10px;
 }
@@ -273,6 +199,9 @@ main {
 
 }
 
+#reasons h5 {
+    color: #000; 
+}
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -287,10 +216,12 @@ main {
 
 #benefits p {
     padding: 0 20px;
+    color: #000;
+    font-size: large;
 }
 
 #benefits hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #050505;
     margin: 5px 0;
 }
 
@@ -314,17 +245,6 @@ main {
     border-radius: 100%;
 }
 
-/* Gallery page */
-#photos img {
-    height: 300px;
-    width: 400px;
-
-    line-height: 1em;
-}
-
-#photos {
-    line-height: 0;
-}
 
 
 /* Footer */
@@ -337,6 +257,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 1.2rem 0;
+    list-style: none;
 }
 
 #social-network i {
@@ -358,11 +279,106 @@ footer {
     transition: all 0.2s ease-in-out;
 }
 
+
+.gallery{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+/*contact us*/
+#contact {
+    justify-content: center;
+
+}
+
+#contact h2 {
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: center;
+    background-color: #4c88b0;
+    width: 58%;
+    margin-left: 21%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#contact h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    margin-left: 13%;
+    border: 2px solid #4c88b0;
+    margin-top: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form-container {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 0 20px 20px 20px;
+    box-shadow: 10px 10px 10px #375d96;
+    background-color: #e1e7f5;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+textarea {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #050e6f;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    background-color: #5c97db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #8ed1e4;
+}
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
+    
+    .gallery img {
+        width: 44%;
+        display: inline;
+        margin-left: 5%;
+        height: 300px;
     }
 }
 
@@ -380,6 +396,7 @@ footer {
 
     #menu {
         display: flex;
+        background-color: ;
     }
 
     #menu>li {
@@ -391,8 +408,8 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 200%;
+        line-height: 55px;
         margin: 0 0.5rem;
     }
 
@@ -409,20 +426,99 @@ footer {
     }
 
     /* Gallery */
-    #photos {
-        column-count: 3;
+    .gallery img {
+        width: 30%;
+        display: inline;
+        margin-left: 3%;
+        height: 300px;
     }
-
-    /*Sign Up Form */
+    /*Sign Up Form 
     .form-section {
         clear: left;
         background: url("../images/PA-imag4.webp");
         background-size: cover;
         background-position: center;
         height: 1100px;
-
-    }
-
+        #contact {
+            justify-content: center;
+        
+        }
+       */
+       #signup-{
+        background-color: #5c97db;
+    } 
+        #signup h2 {
+            padding: 3px 3px 3px 3px;
+            display: flex;
+            justify-content: center;
+            background-color: #4c88b0;
+            width: 58%;
+            margin-left: 21%;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        #signup h3 {
+            font-family: 'Lato', sans-serif;
+            padding: 3px 3px 3px 3px;
+            display: flex;
+            justify-content: center;
+            width: 74%;
+            margin-left: 13%;
+            border: 2px solid #4c88b0;
+            margin-top: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .signup-form {
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        .signup-form-container {
+            margin-top: 20px;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            padding: 0 20px 20px 20px;
+            box-shadow: 10px 10px 10px #375d96;
+            background-color: #e1e7f5;
+            border-radius: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        
+        }
+        
+        .signup-form label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        .signup-form input,
+        textarea {
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #050e6f;
+            border-radius: 8px;
+        }
+        
+        .signup-form button {
+            background-color: #5c97db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .signup-form button:hover {
+            background-color: #8ed1e4;
+        }
+        
     /* Reset some default styles */
     body,
     h1,
@@ -433,61 +529,7 @@ footer {
         padding: 0;
     }
 
-    /* Apply a basic style to the user-icon container */
-    .user-icon {
-        position: relative;
-        display: inline-block;
-    }
-
-    /* Style the link inside the user-icon */
-    .user-icon a {
-        text-decoration: none;
-        color: #333;
-        /* Set your desired text color */
-        font-size: 20px;
-        /* Set your desired font size */
-
-    }
-
-    /* Style the user-icon on hover */
-    .user-icon:hover {
-        background-color: #f0f0f0;
-        /* Set your desired background color on hover */
-    }
-
-    /* Style the drop-down container */
-    .drop-down {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        display: none;
-        /* Hide the drop-down by default */
-        background-color: #fff;
-        /* Set your desired background color */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        /* Add a subtle box shadow */
-        z-index: 1;
-    }
-
-    /* Style the log-in and register links inside the drop-down */
-    .drop-down a {
-        display: block;
-        padding: 10px;
-        color: #333;
-        /* Set your desired text color */
-        text-decoration: none;
-    }
-
-    /* Style the links on hover */
-    .drop-down a:hover {
-        background-color: #f0f0f0;
-        /* Set your desired background color on hover */
-    }
-
-    /* Show the drop-down when hovering over the user-icon */
-    .user-icon:hover .drop-down {
-        display: block;
-    }
+    
 
 
     /*contact us*/
@@ -552,7 +594,7 @@ footer {
     textarea {
         padding: 10px;
         margin: 5px 0 15px;
-        border: 1px solid s#050e6f;
+        border: 1px solid #050e6f;
         border-radius: 8px;
     }
 
@@ -575,7 +617,7 @@ footer {
         display: flex;
         flex-direction: column;
         /* Generic project styles*/
-        color: rgba(51, 97, 170, 0.667) 3a;
+        color: rgba(51, 97, 170, 0.667);
         font-family: 'Lato', sans-serif;
     }
 
@@ -590,44 +632,45 @@ footer {
         color: #252525;
         font-weight: 700;
     }
+}
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
-
-        /* Gallery */
-        #photos {
-            column-count: 4;
-        }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 
-    @media screen and (min-width: 1200px) {
-
-        /* Reasons section */
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #benefits>div {
-            flex: 1;
-        }
-
-        #benefits-image {
-            order: 0;
-        }
-
-        #benefits-mental {
-            order: 1;
-        }
-
-        #benefits-mental>div {
-            align-self: flex-start;
-        }
-
-        #benefits-physical>div {
-            align-self: flex-end;
-        }
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
+}

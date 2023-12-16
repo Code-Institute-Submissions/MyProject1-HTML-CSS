@@ -8,7 +8,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Meta tags for search engines -->
-    <meta name="description" content="Waeder, Predictive Analytics">
+    <meta name="description" content="Waeder, Predictive Analytics.">
     <meta name="keywords" content="waeder, predictive analytics">
     <!-- Title -->
     <title>Waeder</title>
@@ -18,87 +18,92 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/apple-touch-icon-57x57.png">
 
 </head>
-<!-- Header -->
-<header>
-    <a href="index.html">
-        <h1 id="logo">waeder</h1>
+
+<body>
+    <!-- Header -->
+    <header>
+       <!--site logo image and name on nav bar-->
+       <a href="index.html">
+        <img id="logo-img" src="assets/favicon/apple-touch-icon-57x57.png" alt="Waeder logo">
+        <h1 id="logo">Waeder</h1>
     </a>
+    <!-- dropdown menu checkbox--> 
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+<!--navigation menu-->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="gallery.html"> Gallery</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="singup.html" class="active">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- create navigation Section-->
+   <!--Main content-->
 
-    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-    <label for="nav-toggle" class="nav-toggle-label">
-        <!-- Add remaining links to footer--><i class="fa-solid fa-bars"></i>
-    </label>
+    <main>
 
-    <nav>
-        <ul id="menu">
-            <li><a href="index.html"> Home</a></li>
-            <li><a href="gallery.html"> Gallery</a></li>
-            <li><a href="solutions.html">Solutions</a></li>
-            <li><a href="singup.html" class="active">Sign Up</a></li>
+        <section id="signup">
+            
+            <h2>Sign Up</h2>
+        </section>
+      
+            <div class="signup-form-container">
+                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="company">Company:</label>
+                    <input type="text" id="company" name="company" required>
+
+                    <label for="canary">Country:</label>
+                    <input type="text" id="canary" name="canary" required>
+
+                    <label for="spiced">postal code:</label>
+                    <input type="text" id="spiced" name="spiced" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+    </main>
+
+     <!--footer section-->
+     <footer>
+        <ul id="social-network">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook Page (opens in a new tab)"><i
+                        class="fa-brands fa-facebook fa-2xl"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram Page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram fa-2xl"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube Page (opens in a new tab)"><i
+                        class="fa-brands fa-youtube fa-2xl"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Linkedin Page (opens in a new tab)"><i
+                        class="fa-brands fa-linkedin fa-2xl"></i></a></li>
         </ul>
-    </nav>
-</header>
-
-<!-- Sign Up -->
-<main>
-    <section class="form-section">
-        <div class="login-container">
-            <form>
-                <h2>Sign Up</h2>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" name="firstName" required>
-
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
-
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
-
-                <label for="company">Company:</label>
-                <input type="text" id="company" name="company" required>
-
-                <label for="canary">Country:</label>
-                <input type="text" id="canary" name="canary" required>
-
-                <label for="spiced">postal code:</label>
-                <input type="text" id="spiced" name="spiced" required>
-
-                <button type="submit">Login</button>
-            </form>
-        </div>
-    </section>
-</main>
-
-<!--footer section-->
-<footer>
-    <ul id="social-network">
-        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook Page (opens in a new tab)"><i
-                    class="fa-brands fa-facebook fa-2xl"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram Page (opens in a new tab)"><i
-                    class="fa-brands fa-instagram fa-2xl"></i></a></li>
-        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Youtube Page (opens in a new tab)"><i class="fa-brands fa-youtube fa-2xl"></i></a>
-        </li>
-        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Linkedin Page (opens in a new tab)"><i
-                    class="fa-brands fa-linkedin fa-2xl"></i></a></li>
-    </ul>
-</footer>
-<!--Font awesome kit-->
-<script src="https://kit.fontawesome.com/e91176a207.js" crossorigin="anonymous"></script>
-<!--javascript for the used functions-->
-<script src="assets/script.js"></script>
+    </footer>
+    <!--Font awesome kit-->
+    <script src="https://kit.fontawesome.com/e91176a207.js" crossorigin="anonymous"></script>
+    <!--javascript for the used functions-->
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
