@@ -71,7 +71,7 @@ This site implements the very basic features of a static website.
 
 ### Site goals
 
-The aim of this website is to provide services to other companies in the area of predictive analytics.
+The aim of this website is to provide services to other companies in the field of predictive analytics. (Only for practical training purposes).
 
 ## Project Description
 
@@ -83,18 +83,13 @@ The purpose of this project is to combination of data mining, machine learning a
 - More and more software tools are integrating predictive analytics, making it more accessible to users in companies of all sizes. All users can benefit from predictive analytics, even those who have no expertise in data science or advanced analytics.
 - This development is often referred to as “data democratization,” and it means making data available across the organization so everyone can access it to make better decisions.
 
-## Prerequisites
-
-- Web browser (e.g., Chrome, Firefox, Safari)
-- (Any other prerequisites or dependencies your project may have)
-
 ## Acknowledgments
 
-- Mention any contributors, libraries, or resources you used or were inspired by.
+- Thanks and appreciation for Code Institute and especially teacher Kathrin (kay) and mentor Antonio Rodriguez
 
 ## Contact Information
 
-For any inquiries or feedback, please contact [Noah Samawi] at [noah.alsamawi@gmail.com].
+For any inquiries or feedback, please contact [Noah Al-Samawi] at [noah.alsamawi@gmail.com].
 
 ## Footer
 
@@ -138,11 +133,34 @@ Waeder has bin validated via W3C HTML Validator and W3C CSS Vadidator.
 
 **Functionality:** Ensuring all links, navigation and form submit functions as expected throughout browsers....
 
-### Fixed Bugs
+## Technologies Used
 
-## Credits
+### Languages Used
 
-### Media
+HTML, CSS, js
+
+### Frameworks, Libraries & Programs Used
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Bing.com Dall-e](https://www.bing.com/images/create/?ref=hn) - Used to create all the images within the website.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Favicon.io](https://favicon.io/) To create favicon from the logo created by Dall-e 3.
+
+* [Canva.com](https://www.canva.com/) To create a mockup of the website imaage on different platforms/devices.
+  
+* [convertio.co](https://convertio.co) To covert images into webp format.
+
+* [redketchup.io](https://redketchup.io/bulk-image-resizer) To resize the images into same size.
+
 
 All stock images were sourced from the following open source sites:
 
@@ -150,7 +168,7 @@ All stock images were sourced from the following open source sites:
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
 
-### Code
+
 
 Heart Icon:
 
