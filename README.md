@@ -1,64 +1,66 @@
+# Waeder Predictive Analytics
+
+![Responsive-Mockup](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/96be674d-7b36-4981-a603-0b92aef145ce)
+
 ### Font and Colour choices
 
-**Fonts:** "IBM Plex Sans, ans-serif"
+**Fonts:** "Google Fonts was used to import the chosen fonts for use in the site."
 
-**Colours:** 
+**Colours:**
 
 Different colors will be chosen, but black, white, and blue are still the main colors.
-
 
 ## Features
 
 This site implements the very basic features of a static website.
 
 - **Home Gallery**
-  
-    - A simple gallery of images at the bottom of the hompage adds a visual insight into the club the site is portraying.
-    - Images are supposed to show important or fun moments for club members.
 
- 
-![Gallery](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/9b8f30ce-083f-48d4-843d-8d3afe2daae1)
+  - A simple gallery of images at the bottom of the hompage adds a visual insight into the club the site is portraying.
+  - Images are supposed to show important or fun moments for club members.
+
+![Gallery](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/1d599d3d-f1cd-4dec-9626-b41f96e73e0a)
 
 - **Navigation Bar**
-  
+
   - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
- 
-    
-![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ecc057d7-614c-4604-988a-1bd3d7738a43)
+
+![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/f81ab17b-d219-48eb-a173-1435c9c8bbc1)
 
 - **Hero image and Banner textr**
 
 - Featured in the header of all four pages. Includes the club's logo and links to Home page, About page, Events page and Contact form.
-
-  
 - **Store image and Banner text**
+
   - The background image and text design is just a temporary image until the main background image is designed.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
- 
-    
+
     ![Hero-image](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ccb747ca-930d-42d3-82e9-c8e3149ed1f1)
 
 - **Main Content**
--  - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
-    - Subtle borders of the site's primary colour surround each section to give a clear division of information.
+- - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
+  - Subtle borders of the site's primary colour surround each section to give a clear division of information.
 
-![Main-Content](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/1859296f-77fd-4f99-a424-db7c3e3f536f)
+![Main-Content](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/b6c40a24-85fb-487e-80b7-4e2a2e2263e8)
+
+- **Sign UP**
+
+![Signup-Form](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/11e03de4-55b0-4bd9-8b23-e1490185eb43)
 
 - **Footer**
-    - The footer element contains 4 icons, linking to the main social media platforms.
-    - The icons are styled in the sites primary colour.
-    - The footer is consistent througout all pages.
- 
-      ![footer](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/cd12b881-53d7-4029-886f-a22351186278)
 
-      
+  - The footer element contains 4 icons, linking to the main social media platforms.
+  - The icons are styled in the sites primary colour.
+  - The footer is consistent througout all pages.
+
+    ![footer](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/cd12b881-53d7-4029-886f-a22351186278)
+
 - **Contact US**
 - es a section inside solutions page
 - Name and email are mandotory fields and message are optional.
 
-
-  ![contact-us](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/04c7f2dd-6e19-4d3c-839d-ac877b698f12)
+  ![Contact-Us](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/5a3715d7-5206-4d51-b8fe-4a2af7f25d73)
 
 ## UX
 
@@ -116,9 +118,12 @@ Waeder has bin validated via W3C HTML Validator and W3C CSS Vadidator.
 ### Validator Testing
 
 - HTML
-- CSS ![Alt Text](../Screenshot-CSS-Validator.png)
+- CSS 
 
-- added `title` and `aria-label` attributes to all social links and home link logo to improve accessibility
+- Performance, Accessibility, SEO, Best Practices (Lighthouse Chrome DevTools)
+  
+
+![Lighthouse](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/8bc0f2ce-e318-4a5d-9437-4c33ad6c74ab)
 
 ### Browser Testing
 

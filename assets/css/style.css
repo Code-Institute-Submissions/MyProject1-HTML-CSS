@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /* Favicon */
@@ -45,21 +46,20 @@ body {
 
 h1,
 h2,
-h3
-h4 {
+h3 h4 {
 
     font-family: 'Lato', sans-serif;
     /* Make header uppercase und change the color*/
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #0b0a0a;
-    font-weight:900;
+    font-weight: 900;
 }
 
 /*Header*/
 header {
     background-color: #fff;
-color: #050505;
+    color: #050505;
     padding: 0 1rem;
     padding: 0 1rem;
     position: fixed;
@@ -81,7 +81,7 @@ header a {
 #logo-img {
     max-height: 6rem;
     width: auto;
-  }
+}
 
 
 #menu {
@@ -165,6 +165,8 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+
+
 }
 
 /* Hero section */
@@ -200,8 +202,9 @@ main {
 }
 
 #reasons h5 {
-    color: #000; 
+    color: #000;
 }
+
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -280,7 +283,7 @@ footer {
 }
 
 
-.gallery{
+.gallery {
     display: block;
     width: 100%;
     margin-top: 15px;
@@ -373,7 +376,7 @@ textarea {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    
+
     .gallery img {
         width: 44%;
         display: inline;
@@ -432,93 +435,81 @@ textarea {
         margin-left: 3%;
         height: 300px;
     }
-    /*Sign Up Form 
-    .form-section {
-        clear: left;
-        background: url("../images/PA-imag4.webp");
-        background-size: cover;
-        background-position: center;
-        height: 1100px;
-        #contact {
-            justify-content: center;
-        
-        }
-       */
-       #signup-{
+
+    /*Sign Up Form */
+
+    #signup h2 {
+        padding: 3px 3px 3px 3px;
+        display: flex;
+        justify-content: center;
+        background-color: #4c88b0;
+        width: 58%;
+        margin-left: 21%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    #signup h3 {
+        font-family: 'Lato', sans-serif;
+        padding: 3px 3px 3px 3px;
+        display: flex;
+        justify-content: center;
+        width: 74%;
+        margin-left: 13%;
+        border: 2px solid #4c88b0;
+        margin-top: 20px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .signup-form-container {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        padding: 0 20px 20px 20px;
+        box-shadow: 10px 10px 10px #375d96;
+        background-color: #e1e7f5;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+    .signup-form label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .signup-form input,
+    textarea {
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #050e6f;
+        border-radius: 8px;
+    }
+
+    .signup-form button {
         background-color: #5c97db;
-    } 
-        #signup h2 {
-            padding: 3px 3px 3px 3px;
-            display: flex;
-            justify-content: center;
-            background-color: #4c88b0;
-            width: 58%;
-            margin-left: 21%;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        
-        #signup h3 {
-            font-family: 'Lato', sans-serif;
-            padding: 3px 3px 3px 3px;
-            display: flex;
-            justify-content: center;
-            width: 74%;
-            margin-left: 13%;
-            border: 2px solid #4c88b0;
-            margin-top: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        
-        .signup-form {
-            display: flex;
-            flex-direction: column;
-        
-        }
-        
-        .signup-form-container {
-            margin-top: 20px;
-            margin-left: 25px;
-            margin-bottom: 25px;
-            padding: 0 20px 20px 20px;
-            box-shadow: 10px 10px 10px #375d96;
-            background-color: #e1e7f5;
-            border-radius: 12px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
-        
-        }
-        
-        .signup-form label {
-            margin-top: 10px;
-            font-weight: bold;
-        }
-        
-        .signup-form input,
-        textarea {
-            padding: 10px;
-            margin: 5px 0 15px;
-            border: 1px solid #050e6f;
-            border-radius: 8px;
-        }
-        
-        .signup-form button {
-            background-color: #5c97db;
-            color: #fff;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        
-        .signup-form button:hover {
-            background-color: #8ed1e4;
-        }
-        
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .signup-form button:hover {
+        background-color: #8ed1e4;
+    }
+
     /* Reset some default styles */
     body,
     h1,
@@ -529,7 +520,7 @@ textarea {
         padding: 0;
     }
 
-    
+
 
 
     /*contact us*/
