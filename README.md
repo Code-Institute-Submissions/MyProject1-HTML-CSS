@@ -159,6 +159,41 @@ All stock images were sourced from the following open source sites:
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
 
+- - -
+
+## Deployment & Local Development
+
+The site is deployed using GitHub Pages: https://redifo.github.io/ci_pp1/
+
+To Deploy the site using GitHub Pages follow these steps:
+
+1. Log in or sign up on GitHub.
+2. Navigate to the project repository at [redifo/ci_pp1](https://)
+3. Click on the "Settings" button.
+4. Choose "Pages" from the left-hand menu.
+5. In the source dropdown, select the main branch and click "Save."
+6. Your site is now deployed, but please note that it might take a few minutes before it becomes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in or sign up on GitHub.
+2. Visit the project repository at  [redifo/ci_pp1](https://github.com/redifo/ci_pp1)
+3. Click the "Fork" button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in or sign up on GitHub.
+2. Go to the project repository at [redifo/ci_pp1](https://github.com/redifo/ci_pp1)
+3. Click on the "Code" button, choose whether to clone with HTTPS, SSH, or GitHub CLI, and copy the provided link.
+4. Open the terminal in your code editor, navigate to the desired location for the cloned directory.
+5. Type 'git clone' in the terminal and paste the link from step 3. Press enter.
+
 
 Heart Icon:
 
