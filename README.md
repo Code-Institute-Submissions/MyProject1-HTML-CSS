@@ -2,6 +2,9 @@
 
 ![Responsive-Mockup](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/96be674d-7b36-4981-a603-0b92aef145ce)
 
+Visit live site [here]([https://kathrin-ddggxh.github.io/ci-project1/](https://noah-samawi.github.io/MyProject1-HTML-CSS/).
+
+
 ### Font and Colour choices
 
 **Fonts:** "Google Fonts was used to import the chosen fonts for use in the site."
