@@ -95,7 +95,7 @@ For any inquiries or feedback, please contact [Noah Samawi] at [noah.alsamawi@gm
 - The icons are styled in the sites primary colour.
 - The footer is consistent througout all pages.
 
-  **As a website visitor:**
+  ## As a website visitor:
 
 - I would like to quickly find out what new coliction is available on the website.
 - I would like to see new offers.
@@ -103,11 +103,11 @@ For any inquiries or feedback, please contact [Noah Samawi] at [noah.alsamawi@gm
 - I would like to be able to contact the Wadi as a company and make inquiries.
 - I would like to see a mobile-friendly layout and responsive design.
 
-\*As the site administrator:\*\*
+## As the site administrator:
 
-- I want to be able to update the events calender.
-- I want to be able to update and add new events on the events listing.
-- I want to be able to add more relevant images to the site and create a more extensive gallery.
+- I want to be able to update the alle pages .
+- I want to be able to update and add new services on the Solutions and Home page.
+- I want to be able to add more relevant funktion between the site and create a more extensive gallery.
 
 ## Testing
 
