@@ -7,11 +7,13 @@ Visit live site [here]([https://kathrin-ddggxh.github.io/ci-project1/](https://n
 
 ### Font and Colour choices
 
-**Fonts:** "Google Fonts was used to import the chosen fonts for use in the site."
+**Fonts** 
 
-**Colours:**
+- Google Fonts was used to import the chosen fonts for use in the site.
 
-Different colors will be chosen, but black, white, and blue are still the main colors.
+**Colours**
+
+- Different colors will be chosen, but black, white, and blue are still the main colors.
 
 ## Features
 
