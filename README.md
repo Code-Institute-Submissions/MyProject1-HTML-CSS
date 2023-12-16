@@ -201,10 +201,10 @@ I would like to add more relevant images to the site with the price and be able 
 |       **Form submit button**        |                         Form submits when submit button is clicked                          | Fill out form and click submit button |        CI form dump page opens and displays form contents        |
 
 
-#### 405 Error on form submit
+
 
 ### Unfixed bugs
 
 No unfixed bugs to date.
 
-## Deployment
+
