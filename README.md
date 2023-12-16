@@ -23,14 +23,14 @@ This site implements the very basic features of a static website.
 
 - **Navigation Bar**
 
-  - Featured in the header of all four pages. Includes links to Home page, Products page, Resources page, Solution and Why waeder.
+  - Featured in the header of all three pages. Includes links to Home page, Solutions page and Sign UP Page.
   - Uniform format allows for easy navigation on all pages without the use of the "back" button.
 
 ![Navpar](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/f81ab17b-d219-48eb-a173-1435c9c8bbc1)
 
 - **Hero image and Banner textr**
 
-- Featured in the header of all four pages. Includes the club's logo and links to Home page, About page, Events page and Contact form.
+- Featured in the header of all four pages. Includes the club's logo and links to Home page, Solutions page and Sign UP Page.
 - **Store image and Banner text**
 
   - The background image and text design is just a temporary image until the main background image is designed.
@@ -39,7 +39,7 @@ This site implements the very basic features of a static website.
     ![Hero-image](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/ccb747ca-930d-42d3-82e9-c8e3149ed1f1)
 
 - **Main Content**
-- - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
+  - All main sections throughout the site maintain a consistent layout and styling in order to convey information clearly.
   - Subtle borders of the site's primary colour surround each section to give a clear division of information.
 
 ![Main-Content](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/b6c40a24-85fb-487e-80b7-4e2a2e2263e8)
@@ -62,21 +62,19 @@ This site implements the very basic features of a static website.
 
   ![Contact-Us](https://github.com/Noah-Samawi/MyProject1-HTML-CSS/assets/152218995/5a3715d7-5206-4d51-b8fe-4a2af7f25d73)
 
-## UX
-
 ### Site goals
 
 The aim of this website is to provide services to other companies in the area of predictive analytics.
 
 ## Project Description
 
-The purpose of this project is to combination of data mining, machine learning and statistical algorithms provides the “predictive” and predictive component and enables predictive analytics tools to go beyond simple correlation. There is a wide range of possible applications for predictive analytics in business:
-
-Risk reduction for insurance companies and financial service providers
-Detecting credit card fraud
-More accurate supply and demand forecasting
-Identifying threats and problems affecting computer networks
-More and more software tools are integrating predictive analytics, making it more accessible to users in companies of all sizes. All users can benefit from predictive analytics, even those who have no expertise in data science or advanced analytics. This development is often referred to as “data democratization,” and it means making data available across the organization so everyone can access it to make better decisions.
+The purpose of this project is to combination of data mining, machine learning and statistical algorithms provides the “predictive” and predictive component and enables predictive analytics tools to go beyond simple correlation. There is a wide range of possible applications for predictive analytics in business such :
+- Risk reduction for insurance companies and financial service providers
+- Detecting credit card fraud
+- More accurate supply and demand forecasting
+- Identifying threats and problems affecting computer networks
+- More and more software tools are integrating predictive analytics, making it more accessible to users in companies of all sizes. All users can benefit from predictive analytics, even those who have no expertise in data science or advanced analytics.
+- This development is often referred to as “data democratization,” and it means making data available across the organization so everyone can access it to make better decisions.
 
 ## Prerequisites
 
