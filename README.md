@@ -141,9 +141,7 @@ HTML, CSS, js
 
 ### Frameworks, Libraries & Programs Used
 
-* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
-
-* [Bing.com Dall-e](https://www.bing.com/images/create/?ref=hn) - Used to create all the images within the website.
+* [blackbox](https://www.blackbox.ai/) - Used to create wireframes.
 
 * [Git](https://git-scm.com/) - For version control.
 
@@ -155,19 +153,11 @@ HTML, CSS, js
 
 * [Favicon.io](https://favicon.io/) To create favicon from the logo created by Dall-e 3.
 
-* [Canva.com](https://www.canva.com/) To create a mockup of the website imaage on different platforms/devices.
-  
-* [convertio.co](https://convertio.co) To covert images into webp format.
-
-* [redketchup.io](https://redketchup.io/bulk-image-resizer) To resize the images into same size.
-
-
 All stock images were sourced from the following open source sites:
 
 - [Pexels](https://www.pexels.com/)
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
-
 
 
 Heart Icon:
